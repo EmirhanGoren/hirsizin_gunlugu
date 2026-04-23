@@ -3261,8 +3261,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOpen: 0
-  openAngle: 90
+  openRotation: {x: 0, y: 90, z: 0}
+  closedRotation: {x: 0, y: 0, z: 0}
   smooth: 2
+  policeDetectionRange: 4
+  policeTag: Polis
 --- !u!1 &340280984683066078
 GameObject:
   m_ObjectHideFlags: 0
@@ -3986,8 +3989,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOpen: 0
-  openAngle: 90
+  openRotation: {x: 0, y: 90, z: 0}
+  closedRotation: {x: 0, y: 0, z: 0}
   smooth: 2
+  policeDetectionRange: 4
+  policeTag: Polis
 --- !u!1 &400218557364138818
 GameObject:
   m_ObjectHideFlags: 0
@@ -22399,8 +22405,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOpen: 0
-  openAngle: 90
+  openRotation: {x: 0, y: 90, z: 0}
+  closedRotation: {x: 0, y: 0, z: 0}
   smooth: 2
+  policeDetectionRange: 4
+  policeTag: Polis
 --- !u!1 &2411046568456805314
 GameObject:
   m_ObjectHideFlags: 0
@@ -23768,8 +23777,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOpen: 0
-  openAngle: 90
+  openRotation: {x: 0, y: 90, z: 0}
+  closedRotation: {x: 0, y: 0, z: 0}
   smooth: 2
+  policeDetectionRange: 4
+  policeTag: Polis
 --- !u!1 &2510328768507790726
 GameObject:
   m_ObjectHideFlags: 0
@@ -31873,8 +31885,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOpen: 0
-  openAngle: 90
+  openRotation: {x: 0, y: 90, z: 0}
+  closedRotation: {x: 0, y: 0, z: 0}
   smooth: 2
+  policeDetectionRange: 4
+  policeTag: Polis
 --- !u!1 &3236330592099533533
 GameObject:
   m_ObjectHideFlags: 0
@@ -36252,12 +36267,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 491332f13f844d54ea145b230dcc693c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hirsiz: {fileID: 0}
   "gor\xFC\u015FMesafesi": 10
   "gor\xFC\u015FAcisi": 110
   polisTag: Polis
-  ihbarNoktasi: {fileID: 4370475349851691832}
   ihbarGecikmesi: 7
+  telefonSesSource: {fileID: 0}
 --- !u!95 &7757077859633298840
 Animator:
   serializedVersion: 7
@@ -52047,8 +52061,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOpen: 0
-  openAngle: 90
+  openRotation: {x: 0, y: 90, z: 0}
+  closedRotation: {x: 0, y: 0, z: 0}
   smooth: 2
+  policeDetectionRange: 4
+  policeTag: Polis
 --- !u!1 &5237147932868570601
 GameObject:
   m_ObjectHideFlags: 0
@@ -59704,12 +59721,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 491332f13f844d54ea145b230dcc693c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hirsiz: {fileID: 0}
   "gor\xFC\u015FMesafesi": 10
   "gor\xFC\u015FAcisi": 110
   polisTag: Polis
-  ihbarNoktasi: {fileID: 4370475349851691832}
   ihbarGecikmesi: 7
+  telefonSesSource: {fileID: 0}
 --- !u!95 &8563200624356174095
 Animator:
   serializedVersion: 7
@@ -64210,8 +64226,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOpen: 0
-  openAngle: 90
+  openRotation: {x: 0, y: 90, z: 0}
+  closedRotation: {x: 0, y: 0, z: 0}
   smooth: 2
+  policeDetectionRange: 4
+  policeTag: Polis
 --- !u!1 &6485854041269557988
 GameObject:
   m_ObjectHideFlags: 0
@@ -81457,8 +81476,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOpen: 0
-  openAngle: 90
+  openRotation: {x: 0, y: 90, z: 0}
+  closedRotation: {x: 0, y: 0, z: 0}
   smooth: 2
+  policeDetectionRange: 4
+  policeTag: Polis
 --- !u!1 &8189121609134797831
 GameObject:
   m_ObjectHideFlags: 0
@@ -83302,12 +83324,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 491332f13f844d54ea145b230dcc693c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hirsiz: {fileID: 0}
   "gor\xFC\u015FMesafesi": 10
   "gor\xFC\u015FAcisi": 110
   polisTag: Polis
-  ihbarNoktasi: {fileID: 4370475349851691832}
   ihbarGecikmesi: 7
+  telefonSesSource: {fileID: 0}
 --- !u!95 &1504886265419473528
 Animator:
   serializedVersion: 7
